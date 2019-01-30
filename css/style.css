@@ -1,0 +1,112 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+	background-color: #e0e6f0;
+}
+
+.contain {
+	height: 150px;
+	width: 600px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: arial;
+	text-align: center;
+	padding-top: 35px;
+	color: #6266d0;
+
+}
+
+h4 {
+	font-family: arial;
+	text-align: center;
+	color: #6266d0;
+	font-weight: 100;
+	padding-top: 20px;
+}
+
+.firstgift {
+	height: 220px;
+	width: 220px;
+	background-color: #8791ff;
+	border-radius: 50%;
+	position: relative;
+	left: 380px;
+	transform: translate(0, 50px);
+	box-shadow: 0 0 6px 25px #b5bef9;
+	text-align: center;
+}
+
+.secondgift {
+	height: 220px;
+	width: 220px;
+	background-color: #ff6382;
+	border-radius: 50%;
+	position: relative;
+	left: 750px;
+	bottom: 160px;
+	box-shadow: 0 0 5px 25px #fac3d2;
+	text-align: center;
+
+}
+
+img {
+	margin-top: 20px;
+}
+
+p {
+	font-size: 13px;
+	font-family: arial;
+	padding-top: 25px;
+	color: white;
+	padding: 15px;
+	line-height: 1.6;
+
+}
+
+.gift1 {
+	height: 220px;
+	width: 220px;
+	background-color: #8791ff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 1px;
+}
+
+
+.gift2 {
+	height: 220px;
+	width: 220px;
+	background-color: #ff6382;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 1px;
+}
+
+.firstgift:hover .gift1 {
+	transform: translateY(300px);
+	transition-timing-function:cubic-bezier(0,1,.99,.39);
+	transition-duration: .5s;
+	
+
+}
+.secondgift:hover .gift2{
+	transform: translatey(300px);
+	transition-timing-function:cubic-bezier(0,1,.99,.39);
+	transition-duration: .5s;
+}
