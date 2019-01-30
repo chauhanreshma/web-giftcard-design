@@ -9,6 +9,7 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
 }
 
 .main {
@@ -46,7 +47,7 @@ h4 {
 	background-color: #8791ff;
 	border-radius: 50%;
 	position: relative;
-	left: 380px;
+	left: 100px;
 	transform: translate(0, 50px);
 	box-shadow: 0 0 6px 25px #b5bef9;
 	text-align: center;
@@ -58,7 +59,7 @@ h4 {
 	background-color: #ff6382;
 	border-radius: 50%;
 	position: relative;
-	left: 750px;
+	left: 450px;
 	bottom: 160px;
 	box-shadow: 0 0 5px 25px #fac3d2;
 	text-align: center;
@@ -100,13 +101,28 @@ p {
 
 .firstgift:hover .gift1 {
 	transform: translateY(300px);
-	transition-timing-function:cubic-bezier(0,1,.99,.39);
-	transition-duration: .5s;
+	transition-timing-function:cubic-bezier(.33,1.9,.07,-0.25);
+	transition-duration: 0.3s;
 	
 
 }
 .secondgift:hover .gift2{
 	transform: translatey(300px);
-	transition-timing-function:cubic-bezier(0,1,.99,.39);
-	transition-duration: .5s;
+	transition-timing-function:cubic-bezier(.33,1.9,.07,-0.25);
+	transition-duration: 0.3s;
+}
+
+.gift-contain {
+	height: 70%;
+	width: 60%;
+	margin: auto;
+}
+
+
+
+.imgsize {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0;
 }
